@@ -13,7 +13,7 @@
 ## Algorithm
 Using the algorithm you will be able to decode all opcodes
 ```lua
-Decoded = B - (OpcodeIndex * I)
+Decoded = ( B - (OpcodeIndex * I) ) + 1
 if (Decoded <= 0) then
 	B += M+1
 ```
