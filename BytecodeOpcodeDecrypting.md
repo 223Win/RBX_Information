@@ -1,14 +1,14 @@
 
 # Roblox Opcode Decoding
 ## Basic Variable Information
-* B - Opcode Base (1st Opcode Encoded Usually LOP_BREAK)
+* B - Variable which is set to M right away and is changed during encoding process
 * M - Max Opcode (Largest Encoded Opcode)
 * I - Opcode Iterator (Iterator for opcodes: `0x1D` | `29`
 
 ## Current Variables
 | B | M | I |
 |---|---|---|
-| `0xE3` or `227` | `0xFF` or `255` | `0x1D` or `29`
+| `0xFF` or `255` | `0xFF` or `255` | `0x1D` or `29`
 
 ## Algorithm
 Using the algorithm you will be able to encode all opcodes
